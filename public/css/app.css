@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	  display: block;
+}
+body {
+	  line-height: 1;
+}
+ol, ul {
+	  list-style: none;
+}
+blockquote, q {
+	  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	  content: '';
+	  content: none;
+}
+table {
+	  border-collapse: collapse;
+	  border-spacing: 0;
+}
+
+body {
+  background: #f2f4f8;
+}
+.container{
+  margin: 0 auto;
+  max-width: 80.0rem;
+  padding: 2.0rem;
+  position: relative;
+  width: 100%;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 300;
+}
+.header {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000;
+}
+.header_summ {
+    margin-top: 27px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #828282;
+}
+.summ {
+    margin: 15px auto 30px;
+    font-size: 0;
+    text-align: center;
+    color: #000;
+}
+.summ span {
+    font-size: 48px;
+    line-height: 62px;
+}
+.summ .summ_decimal {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.container .primary-button {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 290px;
+    padding: 15px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background: #f39200;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Helvetica,sans-serif;
+    line-height: 1.2;
+    height: auto !important;
+    transition: all .5s;
+    -webkit-font-smoothing: auto;
+}
+.container .primary-button:hover {
+    background-color: #f37500;
+    border: #f37500;
+}
